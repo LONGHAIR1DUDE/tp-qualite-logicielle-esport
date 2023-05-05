@@ -74,6 +74,9 @@
         "auto-scripts": {
         },
         "post-install-cmd": [
+            "cd /home/site/wwwroot" ,
+           "chmod +x configure_apache2.sh",
+            "sudo ./configure_apache2.sh"
         ],
         "post-update-cmd": [
         ]
